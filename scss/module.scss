@@ -1,0 +1,40 @@
+.quick-grid-align-canvas-container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0.3rem 0;
+
+    & canvas{
+        border-radius: 5px;
+    }
+}
+
+.quick-grid-align-canvas-dot{
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: color-dodge;
+    border: 1px solid white;
+    outline: 2px solid #ff00fc;
+    left: 0px;
+    top: 0px;
+    display: none;
+
+    &.start{
+        background-color: greenyellow;
+    }
+
+    &.end{
+        background-color: blueviolet;
+    }
+
+    & .quick-grid-align-canvas-crosshair{
+        position: absolute;
+        border: 1px solid white;
+        pointer-events: none;
+        mix-blend-mode: exclusion;
+    }
+}
