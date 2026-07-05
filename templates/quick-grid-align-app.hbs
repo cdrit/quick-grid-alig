@@ -1,22 +1,24 @@
-<div class="form-group slim">
-    <label>{{localize "quick-grid-align.quick-grid-align-app.squareCount"}}</label>
-    <div class="form-fields">
-        <label>{{localize "TILE.ScaleX"}}</label>
-        <input type="number" value="{{horizontal}}" step="0.1" name="squareCount.x">
-        <label>{{localize "TILE.ScaleY"}}</label>
-        <input type="number" value="{{vertical}}" step="0.1" name="squareCount.y">
+<section class="quick-grid-align-app-content">
+    <div class="form-group slim">
+        <label>{{localize "quick-grid-align.quick-grid-align-app.squareCount"}}</label>
+        <div class="form-fields">
+            <label>{{localize "TILE.ScaleX"}}</label>
+            <input type="number" value="{{horizontal}}" step="0.1" name="squareCount.x">
+            <label>{{localize "TILE.ScaleY"}}</label>
+            <input type="number" value="{{vertical}}" step="0.1" name="squareCount.y">
+        </div>
+        <p class="hint">{{localize "quick-grid-align.quick-grid-align-app.currentGrid"}} <strong>{{localize gridType}}</strong></p>
     </div>
-    <p class="hint">{{localize "quick-grid-align.quick-grid-align-app.currentGrid"}} <strong>{{localize gridType}}</strong></p>
-</div>
 
-<p class="notes">{{localize "quick-grid-align.quick-grid-align-app.hexInfo"}}</p>
+    <p class="notes">{{localize "quick-grid-align.quick-grid-align-app.hexInfo"}}</p>
 
-<h3 class="form-header"><i class="fa-duotone fa-ruler-triangle"></i> {{localize "quick-grid-align.quick-grid-align-app.dragAlign"}}</h3>
+    <h3 class="form-header"><i class="fa-duotone fa-ruler-triangle"></i> {{localize "quick-grid-align.quick-grid-align-app.dragAlign"}}</h3>
 
-<div class="quick-grid-align-canvas-container"></div>
+    <div class="quick-grid-align-canvas-container"></div>
 
-<p class="notes" data-tooltip-direction="LEFT" data-tooltip="<img src='modules/quick-grid-align/assets/measurement.jpg'>">{{localize "quick-grid-align.quick-grid-align-app.dragAlignInfo"}}</p>
+    <p class="notes" data-tooltip-direction="LEFT" data-tooltip="<img src='modules/quick-grid-align/assets/measurement.jpg'>">{{localize "quick-grid-align.quick-grid-align-app.dragAlignInfo"}}</p>
 
-<footer>
-    <button type="submit"><i class="fa-duotone fa-grid"></i> {{localize "quick-grid-align.quick-grid-align-app.align"}}</button>
-</footer>
+    <footer>
+        <button type="submit"><i class="fa-duotone fa-grid"></i> {{localize "quick-grid-align.quick-grid-align-app.align"}}</button>
+    </footer>
+</section>
