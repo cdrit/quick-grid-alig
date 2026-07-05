@@ -18,8 +18,11 @@
     "systems": [],
     "requires": []
   },
-"styles": [
+  "styles": [
     "styles/module.css"
+  ],
+  "esmodules": [
+    "index.js"
   ],
   "languages": [
     {
