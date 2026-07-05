@@ -117,13 +117,19 @@ jobs:
              ./module.zip                        \
             `# The files that will be included.` \
             module.json                          \
+            index.js                             \
+            index.js.map                         \
+            .babelrc                             \
+            webpack.config.js                    \
             README.md                            \
             LICENSE                              \
             templates                            \
             scripts/                             \
             styles/                              \
+            scss/                                \
+            assets/                              \
             packs/                               \
-            languages/                            \
+            languages/                           \
             lang/
           # Don't forget to add a backslash at the end of the line for any
           # additional files or directories!
